@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--
+        The page is going to have one big container, then split into 2 parts with flexbox,encompassing the whole page
+      1 of two will have flex:2 1 auto, 2 of 2 part will have flex 1 1  auto
+      each of the 2 parts will have 3 containers going in the flex column direction.
+      big container applies flex row ,the parts containers will apply flex column.
+
+      first part:
+      1/2 1/3 block will have another div in it and we will justify-content:flex-end(with some padding margin)
+      the middle block will be empty, the last block will have "photo by haile" just:flex-end and all will be flex: 1 1 auto.
+
+      second part(grey background):
+      2/2 1/3 container  center text <br> ... " you know you want to"
+      2/2 2/3 container title, form with flex column, 2 div's with a gap.
+    2/2 3/3 container 
+      Button
+      width:100px;Create account
+      <already have an account? Login.
+
+    -->
+    <div class="container">
+      <div class="first-half">
+        <div class="fh-fb">
+          <img class="logo" alt="odin logo" src="odin-lined.png" />
+        </div>
+        <div class="fh-sb"></div>
+        <div class="fh-tb">Shot by Haile West on Unsplash</div>
+      </div>
+      <div class="second-half">
+        <div class="sh-fb"></div>
+        <div class="sh-sb"></div>
+        <div class="sh-tb"></div>
+      </div>
+    </div>
+  </body>
+</html>
